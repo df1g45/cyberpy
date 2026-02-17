@@ -52,7 +52,7 @@ venv\Scripts\activate
 **Linux/Mac:**
 
 ```bash
-source venv/Scripts/activate
+source ./venv/Scripts/activate
 ```
 
 ---

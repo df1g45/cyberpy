@@ -6,6 +6,10 @@ app = FastAPI()
 def root():
     return {"message": "Jalankan FastAPI 🚀"}
 
+@app.get("/dapcode")
+def root():
+    return {"message": "Hello World 🚀"}
+
 @app.get("/calculate/add")
 def add(a: float, b: float):
     """Menghitung penjumlahan a + b"""

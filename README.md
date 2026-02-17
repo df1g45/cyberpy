@@ -29,8 +29,8 @@ git --version
 ## 🏗️ 1. Buat Folder Project
 
 ```bash
-mkdir fastapi-project
-cd fastapi-project
+mkdir cyberpy
+cd cyberpy
 ```
 
 ---
@@ -184,7 +184,7 @@ git commit -m "Initial FastAPI setup"
 ### Connect ke repo
 
 ```bash
-git remote add origin https://github.com/USERNAME/fastapi-project.git
+git remote add origin https://github.com/df1g45/cyberpy.git
 git branch -M main
 git push -u origin main
 ```

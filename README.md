@@ -87,23 +87,7 @@ fastapi-project/
 
 ---
 
-## 🧠 5. Buat File Aplikasi
-
-### app/main.py
-
-```python
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def root():
-    return {"message": "FastAPI running 🚀"}
-```
-
----
-
-## ▶️ 6. Jalankan Server
+## ▶️ 5. Jalankan Server
 
 ```bash
 uvicorn app.main:app --reload
@@ -111,7 +95,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 🌍 7. Akses Aplikasi
+## 🌍 6. Akses Aplikasi
 
 Buka browser:
 
@@ -129,7 +113,7 @@ Output:
 
 ---
 
-## 📚 8. API Documentation (Otomatis)
+## 📚 7. API Documentation (Otomatis)
 
 FastAPI menyediakan dokumentasi otomatis:
 
@@ -147,22 +131,7 @@ http://127.0.0.1:8000/redoc
 
 ---
 
-## 🧹 9. .gitignore
-
-Buat file `.gitignore`
-
-```
-venv/
-__pycache__/
-*.pyc
-.env
-.idea/
-.vscode/
-```
-
----
-
-## 🧬 10. Init Git Repository
+## 🧬 8. Init Git Repository
 
 ```bash
 git init
@@ -172,7 +141,7 @@ git commit -m "Initial FastAPI setup"
 
 ---
 
-## 🌍 11. Push ke GitHub
+## 🌍 9. Push ke GitHub
 
 ### Buat repo di GitHub
 

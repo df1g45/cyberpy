@@ -52,15 +52,15 @@ venv\Scripts\activate
 **Linux/Mac:**
 
 ```bash
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 
 ---
 
-## 📥 3. Install FastAPI + Uvicorn
+## 📥 3. Install Requirements.txt
 
 ```bash
-pip install fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 Simpan dependency:
